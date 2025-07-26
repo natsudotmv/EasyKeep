@@ -9,4 +9,5 @@ public class AppDbContext : DbContext
     }
     
     public DbSet<Asset> Assets { get; set; }
+    public DbSet<Accessory> Accessories { get; set; }
 }
